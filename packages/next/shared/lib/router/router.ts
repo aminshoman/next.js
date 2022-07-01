@@ -1522,6 +1522,7 @@ export default class Router implements BaseRouter {
     locale: string | undefined,
     isPreview: boolean
   ): Promise<PrivateRouteInfo> {
+    debugger;
     try {
       const existingRouteInfo: PrivateRouteInfo | undefined =
         this.components[route]
