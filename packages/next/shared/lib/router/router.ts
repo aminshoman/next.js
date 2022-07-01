@@ -1672,6 +1672,8 @@ export default class Router implements BaseRouter {
      * for shallow routing purposes.
      */
     let route = requestedRoute
+    debugger;
+    console.log('opensooq->route',route)
     try {
       const handleCancelled = getCancelledHandler({ route, router: this })
 
